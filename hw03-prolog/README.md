@@ -69,7 +69,7 @@ In case `1` we ask to find all `X` for which the clause is true, i.e. it's a sea
 
 *_When you read more about Prolog, you will encounter the term `predicate`, in our data structure, a predicate is represented as a `Fun` data type._*  
 
-To give you a better understanding of the representation, let's take an example from [`simple.pl`](./simple.pl). If you haven't read the [quick guide to Prolog](./prolog-quick-guide) yet, you should probably do so.
+To give you a better understanding of the representation, let's take an example from [`simple.pl`](./simple.pl). If you haven't read the [quick guide to Prolog](./prolog-quick-guide.md) yet, you should probably do so.
 
 The fact `wearsSuits(bunk).` is represented as `Fun "wearsSuits" [Fun "bunk" []]`. We represent the constant term `bunk` as a `Fun` term with no additional terms.
 
