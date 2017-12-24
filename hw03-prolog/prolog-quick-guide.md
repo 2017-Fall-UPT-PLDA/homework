@@ -1,5 +1,4 @@
 # Quick guide to Prolog
-===============================================================================
 
 Examples here use the `SWI-Prolog` interpreter, available for [download](http://www.swi-prolog.org/download/stable) for free.
 

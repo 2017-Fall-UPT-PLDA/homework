@@ -6,6 +6,7 @@ Each homework assignment is in a separate folder named accordingly.
 
 * homework 1 [README](./hw01-interpreter/README.md) <- click here
 * homework 2 [README](./hw02-type-inference/README.md) <- click here
+* homework 3 [README](./hw03-prolog/README.md) <- click here
 
 ## submitting homework
 

@@ -1,5 +1,4 @@
 # PLDA - homework 3 - Prolog Interpreter
-===============================================================================
 
 To be able to complete this homework you will have to familiarize yourself a bit with basics of the programming language [`Prolog`](http://www.swi-prolog.org/). I have also written a [quick guide](./prolog-quick-guide.md) to get programs running, and I outline the basic semantics that have to be supported by the interpreter you have to implement. So make sure you read the guide.
 
@@ -10,7 +9,7 @@ Remember, [There's A Prolog in your Scala](https://www.academia.edu/5732273/Ther
 Hard deadline: January X 2018 (day before the first PLDA exam), by 23:59
 
 ## What is to be done
-------------------------------------------------------------------------------
+
 You will be writing a small interpreter that, like in previous homework, takes as input some algebraic data-type that represents the abstract syntax-tree of the language.  
 
 First, we define our data types. I am shamelessly using Haskell now, because:
@@ -65,8 +64,8 @@ true.
 
 In case `1` we ask to find all `X` for which the clause is true, i.e. it's a search problem. In case `2` we simply ask wether or not the clause is true, i.e. it's a decision problem. Good luck!
 
-Semantics and representation.
-------------------------------------------------------------------------------  
+## Semantics and representation.
+
 
 *_When you read more about Prolog, you will encounter the term `predicate`, in our data structure, a predicate is represented as a `Fun` data type._*  
 
@@ -91,7 +90,7 @@ Remember, that this rule is true if both the `firstPredicate` and `secondPredica
 
 
 ## Implementation tips.
-------------------------------------------------------------------------------
+
 
 Straight from [previous year's](http://bigfoot.cs.upt.ro/~marius/curs/plda/2013/hw4.html) homework:    
 
@@ -101,9 +100,7 @@ Straight from [previous year's](http://bigfoot.cs.upt.ro/~marius/curs/plda/2013/
 *_Before unification, the variables in the rule head and body have to be renamed to fresh variables._*
 
 
-Important:
-------------------------------------------------------------------------------
-
+## Important:
 
 Write helper functions! Don't try to cram everything into the `prolog` function. You should probably delegate most of the work to a function that doesn't have such an obtuse return type as `Answer`, and then convert whatever that function returns to an `Answer`.  
 
